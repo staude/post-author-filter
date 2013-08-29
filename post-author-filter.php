@@ -12,6 +12,13 @@ Compatibility: WordPress 3.6
 License: GPL
 */
 
+/**
+ * Revision: $Rev$
+ * Last Change: $Date$
+ * from: $Author$
+ * 
+ * ID:  $Id$
+ */
 if (!class_exists( 'post_author_filter' ) ) {
 
     include_once dirname( __FILE__ ) .'/class-post-author-filter.php';
