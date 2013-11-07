@@ -45,7 +45,7 @@ class post_author_filter {
      * 
      * load the plugin textdomain with translations
      */
-    function load_translations() {
+    static public function load_translations() {
         load_plugin_textdomain( 'post_author_filter', false, apply_filters ( 'post_author_filter_translationpath', dirname( plugin_basename( __FILE__ )) . '/languages/' ) ); 
     }
     
@@ -53,7 +53,7 @@ class post_author_filter {
      * Adds the author selectbox to the lis post/page site
      * 
      */
-    function add_author_filter() {
+    static public  function add_author_filter() {
         $arguments = array( 'name' => 'author', 
                             'show_option_all' => __( 'All authors', 'post_author_filter' ) 
                           );

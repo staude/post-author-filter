@@ -3,12 +3,12 @@
 Plugin Name: Post Author Filter
 Plugin URI: http://www.staude.net/wordpress/plugins/PostAuthorFilter
 Description: Add a author selection on post / page editpage
-Version: 0.1
+Version: 0.2
 Author: Frank Staude
 Text Domain: post_author_filter
 Domain Path: languages
 Author URI: http://www.staude.net/
-Compatibility: WordPress 3.6
+Compatibility: WordPress 3.7.1
 License: GPL
 */
 
